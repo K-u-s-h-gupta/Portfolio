@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.styleBtn{
+  font-family:"Source Sans Pro";
+  font-size: 1.2rem;
+  border: 2px solid #2b53e5;
+  background: none;
+  outline: none;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.mrgn{
+  margin-top:35px;
+
+}
