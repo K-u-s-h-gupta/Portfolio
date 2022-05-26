@@ -7,8 +7,8 @@ export default function Contactme(props) {
      color: props.toggleMode ? 'white' :'black'
    }
   return (
-    <div>
-        <Container sx={{marginTop:"25px",display:"flex" , alignItems:"center" , flexDirection:"column", paddingBottom:"100px"}}>
+    <div id="Contact">
+        <Container sx={{marginTop:"40px",display:"flex" , alignItems:"center" , flexDirection:"column", paddingBottom:"100px"}}>
         <Typography variant="h4" sx={{fontWeight:"bold"}} >CONTACT</Typography>
 
             <motion.a

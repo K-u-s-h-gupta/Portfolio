@@ -1,9 +1,10 @@
 import React from 'react'
-import { Container,Box,Typography,AppBar,Toolbar, styled, Link,Drawer, List } from '@mui/material'
+import { Container,Box,Typography,AppBar,Toolbar, styled, List } from '@mui/material'
 import Drawers from './Drawer'
 import {navbar} from '../Portfolio'
 import { DarkMode, LightMode } from '@mui/icons-material'
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll'
 
 export default function Navbar(props) {
 
@@ -38,7 +39,19 @@ const StyleComponent = styled(Box)({
             {
                 navbar.map((item,i)=>(
                     
-                    <List variant="h6" underline="none"sx={{fontSize:"1.2rem" , fontFamily:"Source Sans Pro" , display:{sm:'block' , xs:'none'}}} key={i} >{item}</List>
+                    <List 
+                    variant="h6" 
+                    underline="none"
+                    sx={{fontSize:"1.2rem" , fontFamily:"Source Sans Pro" , display:{sm:'block' , xs:'none'}, cursor:'pointer'}} 
+                    key={i}
+                     >
+                        <Link  
+                        to={item} 
+                        spy={true} 
+                        smooth={true}>
+                            {item}
+                        </Link>
+                    </List>
                     ))
                 }
         </StyleComponent>

@@ -59,7 +59,7 @@ const StyledLink = styled(Link)({
         <GitHub/>
           </motion.div>
         </StyledLink>
-        <StyledLink href="https://github.com/K-u-s-h-gupta">
+        <StyledLink href="https://www.linkedin.com/in/kushagra-gupta-3bb00a232/">
         <motion.div whileHover={{color:'#2b53e5',scale:1.3}}>
         <LinkedIn/>
         </motion.div>

@@ -4,7 +4,7 @@ import {skills} from '../Portfolio'
 import {motion} from 'framer-motion'
 export default function Skills() {
   return (
-    <Container sx={{display:"flex" , alignItems:"center" , flexDirection:"column", paddingBottom:"50px"}}>
+    <Container sx={{display:"flex" , alignItems:"center" , flexDirection:"column", paddingBottom:"50px"}} id="Skills">
      
       <Typography variant="h4" sx={{fontWeight:"bold"}} >SKILLS</Typography>
         <Box>

@@ -10,7 +10,7 @@ export default function Project(props) {
   })
 
   return (
-    <Container sx={{display:"flex" , alignItems:"center" , flexDirection:"column",marginBottom:'70px' }}>
+    <Container sx={{display:"flex" , alignItems:"center" , flexDirection:"column",marginBottom:'70px' }} id="Projects">
 
       <Typography variant="h4" sx={{fontWeight:"bold"}} >PROJECTS</Typography>
 
@@ -37,7 +37,7 @@ export default function Project(props) {
                    <GitHub/>
                   </motion.div>
                     </StyledLink>
-                  <StyledLink>
+                  <StyledLink href={item.livePreview}>
                   <motion.div whileHover={{color:'#2b53e5',scale:1.2}}>
                     <Launch/>
                   </motion.div>
