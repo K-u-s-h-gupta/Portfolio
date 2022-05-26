@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://kushPortfolio.github.io",
+  "homepage": "https://KushPortfolio.github.io",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
