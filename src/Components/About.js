@@ -49,7 +49,7 @@ const StyledLink = styled(Link)({
         style={styles}
         whileHover={{ boxShadow: 'inset 6.5em 0 0 0 #2b53e5',color:'white'}} 
         transition={{type:'tween', duration:'0.3'}}   
-        href="https://drive.google.com/file/d/1VliMEYnaoWjv9RiqTd-mM5_DQ1rVg3MO/view?usp=sharing"
+        href="https://drive.google.com/file/d/1T0r0lHcBW11yumrQKC7fqQ03E89dPZG0/view?usp=sharing"
         >
           resume
           </motion.a>
